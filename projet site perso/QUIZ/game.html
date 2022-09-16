@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Google Font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="game.css">
+    <link rel="stylesheet" href="quiz.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+
+
+
+    <title>Quiz game ;)</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="left-title">JS Quiz</div>
+        <div class="right-title">Total Questions: <span id="tque"></span></div>
+        <div class="clearfix"></div>
+
+    </header>
+    <div class="content">
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div id="result" class="quiz-body">
+                        <form name="quizForm" onSubmit="">
+                            <fieldset class="form-group">
+                                <h4><span id="qid">1.</span> <span id="question"></span></h4>
+                                <div class="option-block-container" id="question-options">
+                                </div> <!-- End of option block -->
+                            </fieldset>
+                            <button name="previous" id="previous" class="btn btn-success">Previous</button>
+                            &nbsp;
+                            <div id="tag">
+                                NEXT
+                            </div>
+                            <div id="tag" class="lol">
+                                PREVIOUS
+                            </div>
+                            <button name="next" id="next" class="btn btn-success">Next</button>
+                            &nbsp;
+                            <a href="quiz.html" class="btn btn-danger">Retour</a>
+                        </form>
+                    </div>
+                </div> <!-- End of col-sm-12 -->
+            </div> <!-- End of row -->
+        </div> <!-- ENd of container fluid -->
+    </div> <!-- End of content -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+    <script src="quiz.js"></script>
+</body>
+
+</html>
