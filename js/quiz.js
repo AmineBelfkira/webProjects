@@ -76,13 +76,14 @@ var quiz = {
     "JS": [
         {
             "id": 1,
-            "question": "Inside which HTML element do we put the JavaScript?",
+            "question": "Brass gets discoloured in air because of the presence of which of the following gases in air?",
             "options": [
                 {
                     "a": "&lt;script&gt;",
                     "b": "&lt;javascript&gt;",
                     "c": "&lt;scripting&gt;",
                     "d": "&lt;js&gt;"
+
                 }
             ],
             "answer": "&lt;script&gt;",
