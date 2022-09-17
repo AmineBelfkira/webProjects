@@ -20,41 +20,62 @@
 </head>
 
 <body>
-    <nav id="mainNav" class="navbar navbar-dark navbar-expand-md py-0 fixed-top">
-        <a href="#" class="navbar-brand">Amine</a>
+    <nav id="mainNav" class="navbar navbar-dark navbar-expand-md py-0 fixed-top p-3 mb-2 bg-transparent ">
+
+        <h1 class="display-4"><span class="text-danger">A</span>mine</h1>
+
+
         <button class="navbar-toggler" data-toggle="collapse" data-target="#navlinks" aria-label="#Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navlinks">
             <ul class="navbar-nav">
+
                 <li class="nav-items">
-                    <a href="" class="nav-link">HOME</a>
-                </li>
-                <li class="nav-items">
-                    <a href="" class="nav-link">CONTACT</a>
+                    <a href="contact.html" class="nav-link">CONTACT</a>
                 </li>
                 <li class="nav-items">
                     <a href="quiz.html" class="nav-link">QUIZ</a>
                 </li>
+                <li class="nav-items">
+                    <a href="maze.html" class="nav-link">MAZE</a>
+                </li>
             </ul>
         </div>
     </nav>
-    <section class="container-fluid px-0">
+    <section class="container-fluid px-0 content">
         <div class="row align-items-center">
-            <div class="col-lg-6">
-                <h1 id="header" class="display-1 text-white text-center d-none d-lg-block mt-5"> <span>HI</span> I'M
-                    AMINE
-                </h1>
+            <div class="col-lg-6 ">
+
+
+
+                <div id="container">
+                    <span id="text1"></span>
+                    <span id="text2"></span>
+                </div>
+                <svg id="filters">
+                    <defs>
+                        <filter id="threshold">
+                            <feColorMatrix in="SourceGraphic" type="matrix" values="1 0 0 0 0
+									0 1 0 0 0
+									0 0 1 0 0
+									0 0 0 255 -140" />
+                        </filter>
+                    </defs>
+                </svg>
+
+
+
             </div>
-            <div class="col-lg-6">
-                <img class="img-fluid" src="pic/pexels-felix-mittermeier-2832084.jpg" alt="">
+            <div class="col-lg-6 card">
+                <img class="img-fluid " src="pic/pexels-felix-mittermeier-2832084.jpg" alt="">
             </div>
         </div>
 
     </section>
-    <section class="container-fluid px-0">
+    <section class="container-fluid px-0 content">
         <div class="row align-items-center">
-            <div class="col-lg-6">
+            <div class="col-lg-6 card">
                 <img class="img-fluid" src="pic/pexels-pixabay-416920.jpg" alt="">
             </div>
             <div class="col-lg-6">
@@ -104,7 +125,7 @@
                     automobiles.
                 </p>
             </div>
-            <div class=" col-lg-6">
+            <div class=" col-lg-6 card">
                 <img class="img-fluid" src="pic/pexels-eberhard-grossgasteiger-1421903.jpg" alt="">
             </div>
         </div>
@@ -112,18 +133,19 @@
     </section>
     <section class="container-fluid px-0 content">
         <div class="row align-items-center">
-            <div class="col-lg-6">
-                <img class="img-fluid" src="pic/pexels-bess-hamiti-36487.jpg" alt="">
+            <div class="col-lg-6 card">
+                <img class="img-fluid " src="pic/pexels-bess-hamiti-36487.jpg" alt="">
             </div>
             <div class="col-lg-6">
                 <h2 id="header" class=" display-4 text-danger text-center d-none d-lg-block mt-5">Formation</h2>
-                <a href="https://phelma.grenoble-inp.fr/" class="display-4 link-primary fw-bold">Grenoble INP-Phelma</a>
+                <a href="https://phelma.grenoble-inp.fr/" class="display-4 link-primary fw-bold text-warning">Grenoble
+                    INP-Phelma</a>
                 <p aria-hidden="true" class="text-white">Diplôme d'ingénieur, Électronique , communications, systèmes
                     embarqués et
                     objets connectés</p>
                 <footer class="blockquote-footer text-decoration-underline">Durée du stage: sept. 2021 - juil. 2022
                 </footer>
-                <a href="https://ensimag.grenoble-inp.fr/" class="display-4 link-primary fw-bold">Grenoble
+                <a href="https://ensimag.grenoble-inp.fr/" class="display-4 link-primary fw-bold text-warning">Grenoble
                     INP-ENSIMAG</a>
                 <p aria-hidden="true" class="text-white">Diplôme d'ingénieur, Systèmes embarqués et objets connectés
                     Filière commune entre l'école Nationale Supérieure de Physique,Electronique et Matériaux
@@ -142,14 +164,19 @@
     <section class="container-fluid px-0 content">
         <div class="row align-items-center">
             <div class="col-lg-6">
-                <h2 id="header" class=" display-4 text-danger text-center d-none d-lg-block mt-5">CONTACTS</h2>
+                <div class="wrapper">
+                    <div class="typing-demo">
+                        This is a typing demo.
+                    </div>
+                </div>
             </div>
-            <div class="col-lg-6">
-                <img class="img-fluid" src="pic/pexels-george-desipris-748626.jpg" alt="">
+            <div class="col-lg-6 card">
+                <img class="img-fluid " src="pic/pexels-george-desipris-748626.jpg" alt="">
             </div>
         </div>
 
     </section>
+
     <script src="js/java.js"></script>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

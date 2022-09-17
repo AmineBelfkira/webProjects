@@ -37,7 +37,7 @@ body {
 
     display: none;
     position: absolute;
-    top: -100px;
+    top: -50px;
     left: 50%;
     transform: translateX(-70%);
     font-size: 200px;
@@ -66,7 +66,7 @@ body {
 .quiz-body {
     color: white;
     font-size: xx-large;
-    margin-top: 15px;
+    margin-top: 10px;
     padding-bottom: 50px;
 
 }
