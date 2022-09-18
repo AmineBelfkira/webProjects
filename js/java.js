@@ -9,6 +9,9 @@ const texts = [
     "world!",
     "I'm",
     "Amine",
+    "&",
+    "I love",
+    "Space :)"
 ];
 
 // Controls the speed of morphing.
