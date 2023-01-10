@@ -16,10 +16,10 @@
           </h1>
         </div>
         <div class="card-body">
-          <form action="index1.html" method="POST">
+          <form action="index4.html" method="POST">
             <input type="hidden" name="name" value="Joker" />
             <input type="hidden" name="amount" value="1000" />
-            <button class="btn btn-outline-primary">
+            <button id="jouerButton" class="btn btn-outline-primary">
               Jouer
             </button>
           </form>
@@ -30,3 +30,10 @@
 </div>
 </body>
 </html>
+<script type="text/javascript">
+  document.getElementById("jouerButton").onclick = function() {
+    document.getElementById("nameField").value = "Joker";
+    document.getElementById("amountField").value = "1000";
+    document.getElementById("form").submit();
+  }
+</script>
